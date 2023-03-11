@@ -1,0 +1,10 @@
+# yml 문법 사용하고 각 프로필은 --- 로 분리
+---
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://{kjycapstone-dbtest.cxjgvt26uxg0.ap-northeast-2.rds.amazonaws.com}:{3306}/ {dbtest}?serverTimezone=Asia/Seoul&characterEncoding=UTF-8
+    username: {admin}
+    password: {Rlawodud10##}
+
+---
